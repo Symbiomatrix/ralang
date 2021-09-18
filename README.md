@@ -7,5 +7,6 @@ Usage notes:
 - Select preferred syntax sheet.
 - Each operation consists of the operator function (from given list) and 1 - 4 paramters, followed by an ID (up to 100).
 - Existing operations can be chained (in any order) by plugging in the keyword f_# as a parmater, where # is the other ID.
+- Alternatively, the keyword r_# will return the operator in position relative to current: r_-1 in f_25 will yield the same operation as f_24.
 - Gradual interpretation runs in steps over later columns, finally copying the expanded text back near the input table.
   The main function can be copied over to a markdown / regular notebook of choice.
